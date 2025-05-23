@@ -143,7 +143,7 @@
                             <goal>exec</goal>
                         </goals>
                         <configuration>
-                            <executable>"D:\Program\Inno Setup 6\ISCC.exe"</executable>
+                            <executable>C:\Program Files (x86)\Inno Setup 6\ISCC.exe</executable>
                             <arguments>
                                 <argument>setup.iss</argument>
                             </arguments>
@@ -173,6 +173,7 @@
                     <mainClass>disk.utility.MainApp</mainClass> <!-- Оновіть mainClass -->
                     <options>
                         <option>--module-path=%JAVAFX_HOME%\lib</option>
+                        <option>--icon=src/main/resources/icons/app_icon.ico</option>
                         <option>--add-modules=javafx.controls,javafx.fxml,javafx.graphics,javafx.base</option>
                     </options>
                 </configuration>
