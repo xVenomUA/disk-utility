@@ -1,0 +1,23 @@
+.root {
+  -fx-font-family: "Segoe UI", "Tahoma", sans-serif;
+  -fx-font-size: 13px;
+}
+
+.chart-pie .default-color0 {
+  -fx-pie-color: #5ed801;
+}
+.chart-pie .default-color1 {
+  -fx-pie-color: #1c0a0a;
+}
+
+.chart-pie .default-color2 {
+  -fx-pie-color: #0078d4;
+}
+.chart-pie .default-color3 {
+  -fx-pie-color: #107c10;
+}
+
+.button {
+  -fx-background-radius: 6;
+  -fx-padding: 6 14 6 14;
+}

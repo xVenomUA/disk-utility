@@ -1,0 +1,7 @@
+.table-row-cell:header {
+  -fx-background-color: derive(-fx-base, 40%);
+  -fx-font-weight: bold;
+}
+.table-row-cell:error {
+  -fx-background-color: #ffcccc;
+}
