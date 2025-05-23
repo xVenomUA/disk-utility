@@ -94,7 +94,7 @@ public class DiskAnalysisTab extends Tab {
 
     private void buildUi() {
         sizeUnitCombo.getItems().addAll(SizeUnit.values());
-        sizeUnitCombo.setValue(SizeUnit.BYTES);
+        sizeUnitCombo.setValue(SizeUnit.MB);
 
         useFiltersCheckBox.setText(bundle.getString("checkbox.use_filters"));
         useFiltersCheckBox.setSelected(true);
