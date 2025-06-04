@@ -10,8 +10,8 @@
     <packaging>jar</packaging>
 
     <properties>
-        <maven.compiler.release>23</maven.compiler.release>
-        <javafx.version>24.0.1</javafx.version>
+        <maven.compiler.release>17</maven.compiler.release>
+        <javafx.version>17</javafx.version>
     </properties>
 
     <repositories>
@@ -173,7 +173,7 @@
                     <mainClass>disk.utility.MainApp</mainClass> <!-- Оновіть mainClass -->
                     <options>
                         <option>--module-path=%JAVAFX_HOME%\lib</option>
-                        <option>--icon=src/main/resources/icons/app_icon.ico</option>
+                       
                         <option>--add-modules=javafx.controls,javafx.fxml,javafx.graphics,javafx.base</option>
                     </options>
                 </configuration>

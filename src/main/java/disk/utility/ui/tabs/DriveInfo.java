@@ -7,15 +7,12 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-/** DTO для рядків таблиці + сирі байти для графіка */
 public class DriveInfo {
 
-    // -------- UI‑властивості --------
     private final SimpleStringProperty letter = new SimpleStringProperty();
     private final SimpleStringProperty total = new SimpleStringProperty();
     private final SimpleStringProperty free = new SimpleStringProperty();
 
-    // -------- необроблені дані --------
     private final long totalBytes;
     private final long freeBytes;
 

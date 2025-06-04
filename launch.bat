@@ -1,4 +1,13 @@
 @echo off
 cd /d %~dp0
-java -Djava.library.path="%~dp0bin" --module-path "%~dp0lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base -jar disk-utility-1.0-SNAPSHOT.jar
+
+where mvn >nul 2>nul
+if errorlevel 1 (
+    echo Maven не знайдений! Будь ласка, встановіть Maven і переконайтесь, що він доданий до PATH.
+    pause
+    exit /b
+)
+
+mvn clean javafx:run
+
 pause

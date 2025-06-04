@@ -99,7 +99,6 @@
           <mainClass>disk.utility.MainApp</mainClass>
           <options>
             <option>--module-path=%JAVAFX_HOME%\lib</option>
-            <option>--icon=src/main/resources/icons/app_icon.ico</option>
             <option>--add-modules=javafx.controls,javafx.fxml,javafx.graphics,javafx.base</option>
           </options>
         </configuration>
@@ -118,6 +117,6 @@
   </repositories>
   <properties>
     <maven.compiler.release>23</maven.compiler.release>
-    <javafx.version>24.0.1</javafx.version>
+    <javafx.version>23.0.1</javafx.version>
   </properties>
 </project>
